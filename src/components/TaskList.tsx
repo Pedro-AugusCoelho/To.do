@@ -16,16 +16,20 @@ export function TaskList() {
   const [newTaskTitle, setNewTaskTitle] = useState('');
 
   function handleCreateNewTask() {
-    let tempTask:Task[] = [];
-    tempTask = [...tasks];
-    tempTask.push({
-      id:id,
-      title:newTaskTitle,
-      isComplete:false,
-    });
-    setTasks(tempTask);
-    setId(id + 1);
-    setNewTaskTitle('');
+    if(newTaskTitle){
+      let tempTask:Task[] = [];
+      tempTask = [...tasks];
+      tempTask.push({
+        id:id,
+        title:newTaskTitle,
+        isComplete:false,
+      });
+      setTasks(tempTask);
+      setId(id + 1);
+      setNewTaskTitle('');
+    }else{
+      alert('Preencha a tarefa a ser realizada');
+    }
   };
 
   function handleToggleTaskCompletion(id: number) {
