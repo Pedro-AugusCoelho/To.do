@@ -1,4 +1,8 @@
-## Sobre o projeto 💬
+<div align='center'>
+  <img height='400px' alt='Readme' title='Readme' src='./assets/Animation.gif'>
+</div>
+
+# Sobre o projeto 💬
 
 O **To.do** é uma aplicação web desenvolvida na Rocketseat, sobre criação de tarefas.
 
