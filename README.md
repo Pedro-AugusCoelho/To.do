@@ -1,5 +1,5 @@
 <div align='center'>
-  <img height='400px' alt='Readme' title='Readme' src='./assets/Animation.gif'>
+  <img height='400px' alt='Readme' title='Readme' src='./assets/ImgShow.png'>
 </div>
 
 # Sobre o projeto 💬
